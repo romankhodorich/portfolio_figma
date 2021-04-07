@@ -1,0 +1,74 @@
+/* Bold */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Medium */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: 'gilroy';
+    max-width: 1445px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 32px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    width: 123px;
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.ux-ui {
+    margin: auto;
+    width: 155px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.ru-eng {
+    transform: rotate(-90deg);
+    margin-right: -100px;
+}
