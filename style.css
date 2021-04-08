@@ -86,6 +86,7 @@
 }
 
 .about-me {
+    position: relative;
     font-family: 'gilroy';
     padding: 107px;
     background-color: #F6F6F6;
@@ -99,7 +100,6 @@
 }
 
 .body-text {
-    max-width: 485px;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -164,6 +164,7 @@
     padding-top: 100px;
     font-family: 'gilroy';
     background-color: #F6F6F6;
+    position: relative;
 
 }
 
@@ -173,6 +174,8 @@
     background-size: contain;
     width: 936px;
     height: 510px;
+    align-self: center;
+    margin-bottom: 45px;
 }
 
 .portfolio-card-2 {
@@ -181,6 +184,8 @@
     background-size: contain;
     width: 936px;
     height: 522px;
+    margin-top: 99px;
+    margin-bottom: 45px;
 }
 
 .portfolio-card-3 {
@@ -189,11 +194,8 @@
     background-size: contain;
     width: 936px;
     height: 522px;
-}
-
-.footer {
-    padding: 120px 0;
-    text-align: center;
+    margin-top: 99px;
+    margin-bottom: 45px;
 }
 
 .button {
@@ -219,4 +221,9 @@
     font-size: 14px;
     line-height: 17px;
     color: #828282;
+}
+
+.footer {
+    margin-top: 114px;
+    margin-bottom: 120px;
 }
