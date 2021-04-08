@@ -71,7 +71,7 @@
 .ru-eng {
     box-sizing: border-box;
     align-self: center;
-    transform: rotate(-90deg)
+    transform: rotate(-90deg);
 }
 
 .main-image {
@@ -157,6 +157,7 @@
 }
 
 .portfolio {
+    padding-top: 100px;
     font-family: 'gilroy';
     background-color: #F6F6F6;
 
@@ -188,6 +189,7 @@
 
 .footer {
     padding: 120px 0;
+    text-align: center;
 }
 
 .button {
@@ -198,4 +200,19 @@
     font-size: 18px;
     line-height: 22px;
     border-radius: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img {
+    margin: 30px 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
 }
