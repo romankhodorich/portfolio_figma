@@ -9,38 +9,119 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<div class="wrapper">
-    <!-- общий контейнер для растягивания по вертикали и центрирования всех блоков внутри -->
-    <div class="container">
-        <!-- Общий контейнер с максимальной шириной 1445px -->
+<div class="container">
+    <!-- Общий контейнер с максимальной шириной 1445px -->
 
-        <ul class="navbar">
-            <!-- Главное меню в топе страницы -->
-            <li>Home</li>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contacts</li>
-        </ul>
+    <ul class="navbar">
+        <!-- Главное меню в топе страницы -->
+        <li>Home</li>
+        <li>About me</li>
+        <li>Skills</li>
+        <li>Portfolio</li>
+        <li>Contacts</li>
+    </ul>
+    <hr>
+    <div class="header">
+        <!-- Флекс текстовых блоков над главной картинкой -->
+        <div class="top-text name">Denis Novik</div>
+        <div class="top-text ux-ui">UX | UI designer <br>
+            24 years old, Minsk</div>
+        <div class="top-text ru-eng">RU <strong>| ENG</strong></div>
+    </div>
+    <div class="main-image">
+        <!-- Главное изображение в хедере, сделано фоном для простого масштабирования -->
+    </div>
+</div>
+<div class="about-me">
+    <!-- Блок About Me на сером фоне -->
+    <p class="main-text text-w500">About me</p> <br><br>
+    <p class="body-text text-w500">Hi, I'm Denis – UX/UI designer from Minsk.
+        I'm interested in design and everything connected with it.</p><br><br>
 
-        <hr>
-        <div class="header">
-            <!-- Флекс текстовых блоков над главной картинкой -->
-            <div class="top-text name">Denis Novik</div>
-            <div class="top-text ux-ui">UX | UI designer
-                24 years old, Minsk</div>
-            <div class="top-text ru-eng">RU | <strong>ENG</strong></div>
+    <p class="body-text  text-w500">I'm studying at courses "Web and mobile design
+        interfaces" in IT-Academy. </p><br><br>
+
+    <p class="body-text text-w500">Ready to implement excellent projects
+        with wonderful people.
+    </p>
+</div>
+<div class="container skills">
+    <!-- Блок Skills -->
+    <p class="main-text text-w500">Skills</p> <br><br>
+    <p class="body-text text-w500">I work in such programs as</p><br><br><br>
+    <div class="skill-logo-cards">
+        <!-- Flex блок с 4 карточками программ скиллов -->
+        <div class="card card1">
+            <div class="logo-in-card"><img src="img/PS.png" alt=""></div>
+            <p class="text-14-17">Adobe Photoshop</p>
+            <div class="rating-mini">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
         </div>
-        <!-- Главное изображение в хедере -->
-        <img src="/img/header_img.jpg" alt="header">
-
-
-
-
-        <div class="footer">
-            <h1>Contacts</h1>Lorem ipsum dolor sit amet.
+        <div class="card card2">
+            <div class="logo-in-card"><img src="img/AI.png" alt=""></div>
+            <p class="text-14-17">Adobe Illustrator</p>
+            <div class="rating-mini">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="logo-in-card"><img src="img/AE.png" alt=""></div>
+            <p class="text-14-17">Adobe After Effects</p>
+            <div class="rating-mini">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="card card4">
+            <div class="logo-in-card"><img src="img/Figma.png" alt=""></div>
+            <p class="text-14-17">Figma</p><br>
+            <br><br>
+            <div class="rating-mini">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
         </div>
     </div>
 </div>
+<div class="portfolio">
+    <!-- Блок Портфолио -->
+    <div>
+        <p class="main-text text-w500">Portfolio</p> <br><br>
+    </div>
+    <div class="portfolio-card-1">
+    </div>
+    <p class="body-text"><u>Online fashion store - Homepage</u></p>
+    <div class="portfolio-card-2">
+    </div>
+    <p class="body-text"><u>Reebok Store - Concept</u></p>
+    <div class="portfolio-card-3">
+    </div>
+    <p class="body-text"><u>Braun Landing Page - Concept</u></p>
+</div>
+<div class="container footer">
+    <!-- Подвал -->
+    <p class="main-text text-w500">Contacts</p><br><br>
+    <p class="body-text">Want to know more or just chat?<br>
+        You are welcome!</p><br><br>
+    <!-- Кнопка в подвале -->
+    <button class="button" type="submit">Send message</button>
+
+</div>
+
 
 </html>
