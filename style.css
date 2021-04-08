@@ -46,6 +46,7 @@
 }
 
 .header {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -69,6 +70,8 @@
 }
 
 .ru-eng {
+    position: absolute;
+    right: -19px;
     box-sizing: border-box;
     align-self: center;
     transform: rotate(-90deg);
@@ -96,6 +99,7 @@
 }
 
 .body-text {
+    max-width: 485px;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
